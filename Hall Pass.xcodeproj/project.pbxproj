@@ -11,6 +11,20 @@
 		BA0715BA27B6BC3A00EA9CCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0715B927B6BC3A00EA9CCC /* ContentView.swift */; };
 		BA0715BC27B6BC3D00EA9CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0715BB27B6BC3D00EA9CCC /* Assets.xcassets */; };
 		BA0715BF27B6BC3D00EA9CCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0715BE27B6BC3D00EA9CCC /* Preview Assets.xcassets */; };
+		BA0715CB27B6BDDF00EA9CCC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BA0715CA27B6BDDF00EA9CCC /* FirebaseFirestore */; };
+		BA0715CD27B6BDDF00EA9CCC /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = BA0715CC27B6BDDF00EA9CCC /* FirebaseFirestoreSwift-Beta */; };
+		BA0715D427B6C08A00EA9CCC /* ModelStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0715D327B6C08A00EA9CCC /* ModelStructs.swift */; };
+		BA0715DA27B6C34100EA9CCC /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0715D927B6C34100EA9CCC /* RequestManager.swift */; };
+		BA1591A2282575590010BDC0 /* SubmitButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1591A1282575590010BDC0 /* SubmitButtonView.swift */; };
+		BA20895A27B6D7B100032750 /* RequestSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20895927B6D7B100032750 /* RequestSummaryView.swift */; };
+		BA77220727EB6A04000DA48C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BA77220627EB6A04000DA48C /* FirebaseAuth */; };
+		BA77220927EB6C3C000DA48C /* SignInBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77220827EB6C3C000DA48C /* SignInBlockView.swift */; };
+		BA77221327EE166F000DA48C /* RequestFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77221227EE166F000DA48C /* RequestFormView.swift */; };
+		BA8CA0EC27F5D385001A7439 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA8CA0EB27F5D385001A7439 /* GoogleService-Info.plist */; };
+		BA9A0C642819906500A3D08E /* AccountDetailsBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A0C632819906500A3D08E /* AccountDetailsBlockView.swift */; };
+		BAC91BF327D90C8800508805 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = BAC91BF227D90C8800508805 /* GoogleSignIn */; };
+		BAC91BFA27D93D8400508805 /* SignUpVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC91BF927D93D8400508805 /* SignUpVM.swift */; };
+		BAC91BFD27D93E5F00508805 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC91BFC27D93E5F00508805 /* Application.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +33,17 @@
 		BA0715B927B6BC3A00EA9CCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA0715BB27B6BC3D00EA9CCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA0715BE27B6BC3D00EA9CCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA0715D327B6C08A00EA9CCC /* ModelStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelStructs.swift; sourceTree = "<group>"; };
+		BA0715D927B6C34100EA9CCC /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		BA1591A1282575590010BDC0 /* SubmitButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButtonView.swift; sourceTree = "<group>"; };
+		BA20895927B6D7B100032750 /* RequestSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSummaryView.swift; sourceTree = "<group>"; };
+		BA77220827EB6C3C000DA48C /* SignInBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInBlockView.swift; sourceTree = "<group>"; };
+		BA77221227EE166F000DA48C /* RequestFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestFormView.swift; sourceTree = "<group>"; };
+		BA8CA0EB27F5D385001A7439 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BA9A0C632819906500A3D08E /* AccountDetailsBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsBlockView.swift; sourceTree = "<group>"; };
+		BAC91BF627D937B400508805 /* Hall-Pass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Hall-Pass-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BAC91BF927D93D8400508805 /* SignUpVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVM.swift; sourceTree = "<group>"; };
+		BAC91BFC27D93E5F00508805 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +51,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA0715CB27B6BDDF00EA9CCC /* FirebaseFirestore in Frameworks */,
+				BA0715CD27B6BDDF00EA9CCC /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				BAC91BF327D90C8800508805 /* GoogleSignIn in Frameworks */,
+				BA77220727EB6A04000DA48C /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +66,7 @@
 			children = (
 				BA0715B627B6BC3A00EA9CCC /* Hall Pass */,
 				BA0715B527B6BC3A00EA9CCC /* Products */,
+				BA77220527EB6A04000DA48C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				BA0715B727B6BC3A00EA9CCC /* Hall_PassApp.swift */,
-				BA0715B927B6BC3A00EA9CCC /* ContentView.swift */,
+				BA77221127EE149C000DA48C /* Views */,
+				BAC91BFB27D93E5200508805 /* Utilities */,
+				BAC91BF827D93D6B00508805 /* ViewModels */,
+				BA0715CE27B6BE9C00EA9CCC /* Models */,
 				BA0715BB27B6BC3D00EA9CCC /* Assets.xcassets */,
+				BAC91BF627D937B400508805 /* Hall-Pass-Info.plist */,
+				BA8CA0EB27F5D385001A7439 /* GoogleService-Info.plist */,
 				BA0715BD27B6BC3D00EA9CCC /* Preview Content */,
 			);
 			path = "Hall Pass";
@@ -65,6 +100,51 @@
 				BA0715BE27B6BC3D00EA9CCC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA0715CE27B6BE9C00EA9CCC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA0715D927B6C34100EA9CCC /* RequestManager.swift */,
+				BA0715D327B6C08A00EA9CCC /* ModelStructs.swift */,
+				BA77220827EB6C3C000DA48C /* SignInBlockView.swift */,
+				BA9A0C632819906500A3D08E /* AccountDetailsBlockView.swift */,
+				BA1591A1282575590010BDC0 /* SubmitButtonView.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BA77220527EB6A04000DA48C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA77221127EE149C000DA48C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA0715B927B6BC3A00EA9CCC /* ContentView.swift */,
+				BA77221227EE166F000DA48C /* RequestFormView.swift */,
+				BA20895927B6D7B100032750 /* RequestSummaryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BAC91BF827D93D6B00508805 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BAC91BF927D93D8400508805 /* SignUpVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BAC91BFB27D93E5200508805 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BAC91BFC27D93E5F00508805 /* Application.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +163,12 @@
 			dependencies = (
 			);
 			name = "Hall Pass";
+			packageProductDependencies = (
+				BA0715CA27B6BDDF00EA9CCC /* FirebaseFirestore */,
+				BA0715CC27B6BDDF00EA9CCC /* FirebaseFirestoreSwift-Beta */,
+				BAC91BF227D90C8800508805 /* GoogleSignIn */,
+				BA77220627EB6A04000DA48C /* FirebaseAuth */,
+			);
 			productName = "Hall Pass";
 			productReference = BA0715B427B6BC3A00EA9CCC /* Hall Pass.app */;
 			productType = "com.apple.product-type.application";
@@ -93,7 +179,7 @@
 		BA0715AC27B6BC3A00EA9CCC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
+				BuildIndependentTargetsInParallel = NO;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
@@ -111,6 +197,10 @@
 				Base,
 			);
 			mainGroup = BA0715AB27B6BC3A00EA9CCC;
+			packageReferences = (
+				BA0715C927B6BDDF00EA9CCC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				BAC91BF127D90C8800508805 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = BA0715B527B6BC3A00EA9CCC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA0715BF27B6BC3D00EA9CCC /* Preview Assets.xcassets in Resources */,
+				BA8CA0EC27F5D385001A7439 /* GoogleService-Info.plist in Resources */,
 				BA0715BC27B6BC3D00EA9CCC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +228,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA77221327EE166F000DA48C /* RequestFormView.swift in Sources */,
+				BAC91BFD27D93E5F00508805 /* Application.swift in Sources */,
+				BA0715DA27B6C34100EA9CCC /* RequestManager.swift in Sources */,
+				BA9A0C642819906500A3D08E /* AccountDetailsBlockView.swift in Sources */,
 				BA0715BA27B6BC3A00EA9CCC /* ContentView.swift in Sources */,
+				BA0715D427B6C08A00EA9CCC /* ModelStructs.swift in Sources */,
+				BAC91BFA27D93D8400508805 /* SignUpVM.swift in Sources */,
+				BA20895A27B6D7B100032750 /* RequestSummaryView.swift in Sources */,
+				BA1591A2282575590010BDC0 /* SubmitButtonView.swift in Sources */,
+				BA77220927EB6C3C000DA48C /* SignInBlockView.swift in Sources */,
 				BA0715B827B6BC3A00EA9CCC /* Hall_PassApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,6 +303,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -257,6 +358,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -269,12 +371,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hall Pass/Preview Content\"";
+				DEVELOPMENT_TEAM = H52TMGJCAD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hall-Pass-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -285,7 +390,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -297,12 +402,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hall Pass/Preview Content\"";
+				DEVELOPMENT_TEAM = H52TMGJCAD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hall-Pass-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,7 +421,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -339,6 +447,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA0715C927B6BDDF00EA9CCC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		BAC91BF127D90C8800508805 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA0715CA27B6BDDF00EA9CCC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA0715C927B6BDDF00EA9CCC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		BA0715CC27B6BDDF00EA9CCC /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA0715C927B6BDDF00EA9CCC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		BA77220627EB6A04000DA48C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA0715C927B6BDDF00EA9CCC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		BAC91BF227D90C8800508805 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BAC91BF127D90C8800508805 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BA0715AC27B6BC3A00EA9CCC /* Project object */;
 }

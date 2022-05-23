@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>235003136572-n1pnlfgif3friitlmtr30tt3m9mteaaf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.235003136572-n1pnlfgif3friitlmtr30tt3m9mteaaf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD11VSlt_5srgREPHP2xvoPnqBxmD0Un90</string>
+	<key>GCM_SENDER_ID</key>
+	<string>235003136572</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ashtongeorge.Hall-Pass</string>
+	<key>PROJECT_ID</key>
+	<string>hall-pass-4c3af</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hall-pass-4c3af.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:235003136572:ios:feb177b5c5f449e9255139</string>
+</dict>
+</plist>
